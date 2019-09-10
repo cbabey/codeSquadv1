@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="progress-wizard.min.css" rel="stylesheet">
+
+    <style>
+        #rapper {
+            background-color: gray;
+            text-align: center;
+            padding: 10;
+
+        }
+
+        .rapper button {
+            /* float:; */
+        }
+
+        .changeCl {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul class="progress-indicator">
+        <li class="completed"> <span class="bubble"></span> Step 1. </li>
+        <li class="completed"> <span class="bubble"></span> Step 2. </li>
+        <li> <span class="bubble"></span> Step 3. </li>
+        <li> <span class="bubble"></span> Step 4. </li>
+        <li> <span class="bubble"></span> Step 5. </li>
+    </ul>
+
+    <div id="rapper">
+        <h3>Team Formation </h3>
+        <p>Make your team with maximum 3 students</p>
+        <button onclick="myFunction()">Next</button>
+    </div>
+
+    <script>
+        function myFunction1(){
+
+        }
+        function myFunction() {
+            document.getElementById("rapper").innerHTML = " <h3>Create a Email With your group Name </h3> <p>Make your team with maximum 3 students</p> <button onclick='myFunction1()'>Next</button>"
+            console.log("");
+        //    alert();
+        }
+    </script>
+
+
+</body>
+
+</html>
