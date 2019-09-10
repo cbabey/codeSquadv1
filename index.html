@@ -26,6 +26,10 @@
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/prettyPhoto.css">
+<link rel="stylesheet" href="css/registrarion.css">
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
    <!-- Script
    ================================================== -->
@@ -69,10 +73,10 @@
          <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
 
          <ul id="nav" class="nav">
-            <li ><a class="smoothscroll"  href="#pricing" >About</a></li>
-            <li><a class="smoothscroll" href="#features">Register</a></li>
+            <li ><a class="smoothscroll"  href="#about" >About</a></li>
+            <li><a class="smoothscroll" href="#register">Register</a></li>
             <li  style="width: 182px; height: 40; ">
-                  <a class="smoothscroll" id="logo1" href="#hero"><img alt="" src="images/logo 7.png"></a>
+                  <a class="smoothscroll" id="logo1" href="#landingPage"><img alt="" src="images/logo 7.png"></a>
             </li>
             <!-- <div style="width: 72px; height: 30;"> -->
             
@@ -80,7 +84,7 @@
             <!-- <a class="smoothscroll" style="font-size: 30px; color: aliceblue" id="logo1" href="#hero">'
                <'CodeSquad' />'</CodeSquad></a> -->
             <li><a class="smoothscroll" href="#screenshots">Comitte</a></li>
-            <li><a class="smoothscroll" href="#subscribe">Contact</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
             <!-- <li><a class="smoothscroll" href="#subscribe">Subscribe</a></li> -->
          </ul> <!-- end #nav -->
 
@@ -94,7 +98,7 @@
 
    </header>
    <!-- Header End -->
-
+   <div id="landingPage">
    <div id="hero" class="container demo">
       <div class="content">
          <div id="large-header" class="large-header">
@@ -114,7 +118,7 @@
 
                         <!-- <h1 class="typewriter responsive-headline">Code Squad v1.0</h1> -->
 
-                        <h1 class="responsive-headline">"I came I Saw I coded"</h1>
+                        <h1 class="responsive-headline">" while(!(succeed = try())) "</h1>
 
                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptate consectetur in facere! Cum beatae voluptas, dolorum itaque numquam consequatur adipisci quidem animi necessitatibus dignissimos laborum dolore velit quos ea!</p> -->
                      </div>
@@ -156,7 +160,8 @@
                   </div>
                </div>
                <br>
-               <button>Register</button>
+               <button onclick="location.href='#register'" href="#register">Register</button>
+               
             </div>
             <!-- <h1 class="main-title responsive-headline">Code Squad v0.0</h1> -->
 
@@ -166,12 +171,16 @@
          </div>
       </div>
    </div>
+</div>
    <!-- Homepage Hero
    ================================================== -->
    <!-- Homepage Hero end -->
 
    <!-- Pricing Section
    ================================================== -->
+   <div id="about">
+
+   
    <section id="pricing">
 
       <div class="row section-head">
@@ -180,26 +189,22 @@
 
          <p style="font-size:16px">
             <!-- <span style="margin-left: 80px"> as</span> -->
-            Code Squad is a problem solving coding competition in a wide range of computer science domains to practice
-            different programming paradigms as functional programming.
-            The competition will be held in two stages, online qualification round and final round. Final round will be
-            conducted within a constrained time period of twelve hours. All the competitors are given the freedom to
-            refer any resource during the solving process as long as the overall task is completed within the time
-            duration.
+            Code Squad is an Intra faculty problem solving coding competition organized by the Department of Computer Engineering, University of Sri Jayewardenepura. Code Squad scopes over a wide range of computer science domains to practice different programming paradigms as functional programming. The competition will be held in two stages, online qualification round and final round. Final round will be conducted within a constrained time period of twelve hours. All the competitors are given the freedom to refer any resource during the solving process
 
          </p>
-         <p style="font-size:16px">
+         <!-- <p style="font-size:16px">
 
             The competition is based on the coding competition model of ‘‘HackerRank’’ which is a technology company
             that focuses on programming challenges. The participants are expected to gain an experience in multiple
             dimensions, such as meeting time constraints, working according to specifications, following guidelines etc.
             which are ultimately useful for one’s future career.
-         </p>
+         </p> -->
 
       </div>
 
 
    </section> <!-- Pricing End -->
+</div>
    <!-- Testimonials Section
    ================================================== -->
    <section id="testimonials">
@@ -257,6 +262,73 @@
 
    </section> <!-- Testimonials Section End-->
 
+   <!-- Registration -->
+
+<div id="register">
+
+</div>
+   <section  style="background-color: white;">
+         <h3 class="ba"  style="padding-top:155px">Register for Selection Round</h3>
+         <div class="timeline">
+             <ul>
+                 <li>
+                     <div class="content">
+                         <h3>Form a group of 1-3 members.</h3>
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                             of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                             but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                     </div>
+                     <div class="time">
+                         <h4>Step 1</h4>
+                     </div>
+                 </li>
+     
+                 <li>
+                     <div class="content">
+                         <h3>Create a Hackerank Account</h3>
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                             of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                             but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+     
+                         <a style="color:white" href="https://www.hackerrank.com/create-account/?h_r=home&h_l=header" class="myButton">Hakerank Link</a>
+                     </div>
+                     <div class="time">
+                         <h4>Step 2</h4>
+                     </div>
+                 </li>
+     
+                 <li>
+                     <div class="content">
+                         <h3>Fill Google form</h3>
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                             the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                             of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                             but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+     
+                             <a href="https://forms.gle/CYH1J1qFpBHCmUkXA" class="myButton1">Google Form Link </a>
+                     </div>
+                     <div class="time">
+                         <h4>Step 3</h4>
+                     </div>
+                 </li>
+     
+                 <li>
+                     <div class="content">
+                         <h3>Registarion Done</h3>
+                         <p>Further information will be informed soon. Keep in touch with us. Thank You</p>
+                     </div>
+                     <div class="time">
+                         <h4>Final</h4>
+                     </div>
+                 </li>
+     
+                 <div style="clear:both;"></div>
+             </ul>
+         </div>
+   </section>
+
 
    <!-- Features Section
    ================================================== -->
@@ -275,7 +347,7 @@
 
    <!-- Subscribe
    ================================================== -->
-   <section id="subscribe">
+   <section id="contact">
 
 
    </section> <!-- Subscribe Section End-->
