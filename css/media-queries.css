@@ -390,8 +390,8 @@
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 420px) { 
 
-   header {
-      height: 60px;
+    header {
+      height: 70px;
       width: 100%;
       /* background: #13171B; */
       /* background: blue; */
@@ -417,7 +417,7 @@
    }
    
    #clockdiv > div{
-      padding: 6px;
+      padding: 7px;
       border-radius: 3px;
       background: #00BF96;
       display: inline-block;
@@ -431,8 +431,8 @@
    }
 
    .smalltext{
-      padding-top: 3px;
-      font-size: 15px;
+      padding-top: 0px;
+      font-size: 12px;
    }
 
     /* Hero Section
