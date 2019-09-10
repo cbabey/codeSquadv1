@@ -337,9 +337,18 @@
 /* screenwidth less than or equal 480px - mobile wide
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 480px) {   
-
-   header{
-      height: 70px;
+   header {
+      height: 60px;
+      width: 100%;
+      /* background: #13171B; */
+      /* background: blue; */
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+      /* opacity: 0.5; */
+      /* margin-top:100px; */
+      z-index: 990;
    }
 
    .typewriter-text{
@@ -381,10 +390,21 @@
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 420px) { 
 
-   /* //Timer asd*/
-   header{
-      height: 70px;
+   header {
+      height: 60px;
+      width: 100%;
+      /* background: #13171B; */
+      /* background: blue; */
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+      /* opacity: 0.5; */
+      /* margin-top:100px; */
+      z-index: 990;
    }
+
+   /* //Timer asd*/
 
    #clockdiv{
       margin: 0 auto;
