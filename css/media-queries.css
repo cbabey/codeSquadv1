@@ -338,6 +338,10 @@
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 480px) {   
 
+   header{
+      height: 70px;
+   }
+
    .typewriter-text{
       font-size: 20px;
    }
@@ -378,6 +382,9 @@
 @media only screen and (max-width: 420px) { 
 
    /* //Timer asd*/
+   header{
+      height: 70px;
+   }
 
    #clockdiv{
       margin: 0 auto;
