@@ -337,6 +337,9 @@
 /* screenwidth less than or equal 480px - mobile wide
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 480px) {   
+   #demo-canvas{
+      display: none;
+   }
    header {
       height: 60px;
       width: 100%;
