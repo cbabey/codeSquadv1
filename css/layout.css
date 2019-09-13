@@ -284,7 +284,7 @@ ul#nav li.current a { color: #fff; }
   display: inline-block;
 }
 
-button {
+.topButton {
    background: greenyellow;
    border: 0;
    font-size: 20px;
@@ -296,7 +296,7 @@ button {
    animation-timing-function: ease-in;
    cursor: pointer;
  }
- button:hover {
+ .topButton:hover {
    animation-name: shakeAnim;
  }
  

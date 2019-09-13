@@ -27,9 +27,12 @@
    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/prettyPhoto.css">
 <link rel="stylesheet" href="css/registrarion.css">
+<link rel="stylesheet" href="css/reg.css">
 
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
    <!-- Script
    ================================================== -->
@@ -74,7 +77,7 @@
 
          <ul id="nav" class="nav">
             <li ><a class="smoothscroll"  href="#about" >About</a></li>
-            <li><a class="smoothscroll" href="#register">Register</a></li>
+            <li><a class="smoothscroll" href="#NewRegistration">Register</a></li>
             <li  style="width: 182px; height: 40; ">
                   <a class="smoothscroll" id="logo1" href="#landingPage"><img alt="" src="images/logo 7.png"></a>
             </li>
@@ -160,7 +163,7 @@
                   </div>
                </div>
                <br>
-               <button onclick="location.href='#register'" href="#register">Register</button>
+               <button class="topButton" onclick="location.href='#register'" href="#register">Register</button>
                
             </div>
             <!-- <h1 class="main-title responsive-headline">Code Squad v0.0</h1> -->
@@ -178,7 +181,7 @@
 
    <!-- Pricing Section
    ================================================== -->
-   <div id="about">
+   <section id="about">
 
    
    <section id="pricing">
@@ -186,7 +189,7 @@
       <div class="row section-head">
 
          <h1 style="font-size:26px">About.</h1>
-
+         <section id="about"></section>
          <p style="font-size:16px">
             <!-- <span style="margin-left: 80px"> as</span> -->
             Code Squad is an Intra faculty problem solving coding competition organized by the Department of Computer Engineering, University of Sri Jayewardenepura. Code Squad scopes over a wide range of computer science domains to practice different programming paradigms as functional programming. The competition will be held in two stages, online qualification round and final round. Final round will be conducted within a constrained time period of twelve hours. All the competitors are given the freedom to refer any resource during the solving process
@@ -204,7 +207,7 @@
 
 
    </section> <!-- Pricing End -->
-</div>
+   </section>
    <!-- Testimonials Section
    ================================================== -->
    <section id="testimonials">
@@ -264,10 +267,10 @@
 
    <!-- Registration -->
 
-<div id="register">
+<!-- <div id="register">
 
 </div>
-   <section  style="background-color: white;">
+   <section  id="register"  style="background-color: white;">
          <h3 class="ba"  style="padding-top:155px">Register for Selection Round</h3>
          <div class="timeline">
              <ul>
@@ -328,7 +331,7 @@
              </ul>
          </div>
    </section>
-
+ -->
 
    <!-- Features Section
    ================================================== -->
@@ -340,16 +343,61 @@
    <!-- Screenshots
    ================================================== -->
    
+<!-- Registration -->
 
+<section id="NewRegistration">
+      <h3 class="ba"  style="padding-top:155px; padding-bottom: 30px;">Register for Selection Round</h3>
+      <div class="steps">
+            <div class="step">
+              <div class="step-header">
+                <div class="header" style="width:90px; color: white;">step one!</div>
+                <div class="subheader">Form a group of 1-3 members.</div>
+              </div>
+              <div class="step-content one">
+                 <!-- <h1>asdasd</h1> -->
+                 <p>Form a team upto a maximum of 3 students, currently studying in the Faculty of Engineering, University of Sri Jayewardenepura.</p>
+                <button class="next-btn">Next</button>
+              </div>
+            </div>
+            <div class="step minimized">
+              <div class="step-header">
+                <div class="header" style="width:90px; color: white;">step two!</div>
+                <div class="subheader">Create a Hackerank Account</div>
+              </div>
+              <div class="step-content two">
+                 <p>Create a Hackerrank account for your Team using the selected Team Name.</p>
+                 <div>
+                     <a href="https://www.hackerrank.com/create-account/?h_r=home&h_l=header" target="_blank" class="hack-btn">Hakerank</a>
+                 </div>
+                 <br>
+                <button class="next-btn">Next</button>
+              </div>
+            </div>
+            <div class="step minimized">
+              <div class="step-header">
+                <div class="header" style="width:190px; color: white;">And finally step three!</div>
+                <div class="subheader">Fill Google form</div>
+                
+              </div>
+              <div class="step-content three">
+                 <p>Complete the Google Form with the Team and Member details</p>
+                 <a href="https://forms.gle/CYH1J1qFpBHCmUkXA" target="_blank" class="g-btn">Google Form</a>
+                 <br>
+                <button class="close-btn">Close</button>
+              </div>
+            </div>
+          </div>
+
+</section>
 
 
 
 
    <!-- Subscribe
    ================================================== -->
-   <section id="contact">
+   <section style="background-color: red" id="contact">
 
-
+<!-- <br><br> -->
    </section> <!-- Subscribe Section End-->
 
 
@@ -454,6 +502,7 @@
    <script src="js/imagelightbox.js"></script>
    <script src="js/jquery.prettyPhoto.js"></script>
    <script src="js/main.js"></script>
+   <script src="./js/reg.js"></script>
 
    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"> </script>
    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>

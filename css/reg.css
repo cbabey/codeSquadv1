@@ -1,0 +1,289 @@
+#NewRegistration{
+  background: #FFF;
+  height: 30%;
+}
+#NewRegistration :root {
+    --background-color: #FFFFFF;
+    --primary-color: #E66A53;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  #NewRegistration .steps {
+    /* width: 500px; */
+    width: 80%;
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.3);
+    background-color: #FFF;
+    padding: 24px 0;
+    position: relative;
+    margin: auto;
+  }
+  
+  #NewRegistration .steps::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 24px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: calc(50px / 2);
+    z-index: 1;
+  }
+  
+  #NewRegistration .steps::after {
+    content: '';
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 5px 0px var(--primary-color);
+    border-radius: 15px;
+    left: calc(50px / 2);
+    bottom: 24px;
+    transform: translateX(-45%);
+    z-index: 2;
+  }
+  
+  #NewRegistration .step {
+    padding: 0 20px 24px 50px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    background-color: #FFF;
+  }
+  
+  #NewRegistration .step::before {
+    content: '';
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 15px;
+    left: calc(50px / 2);
+    transform: translateX(-45%);
+    z-index: 2;
+  }
+  
+  #NewRegistration .step::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: rgb(198, 198, 198);
+    left: calc(50px / 2);
+    top: 0;
+    z-index: 1;
+  }
+  
+  #NewRegistration .step.minimized {
+    background-color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #NewRegistration .header {
+    background-color: rgba(233, 33, 99, 1);
+    border: 2px solid rgba(233, 33, 99, 1);
+  border-radius: 5px;
+  font-weight: bold;
+      
+    text-align: center;
+    user-select: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #NewRegistration .subheader {
+    user-select: none;
+    margin-top: 10px;
+    font-size: 19px;
+    color:  gray;
+    font-weight: bold;
+
+    /* color: rgba(0, 0, 0, 0.4); */
+  }
+  
+  #NewRegistration .step-content {
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    /* padding: 4px; */
+  }
+  
+  #NewRegistration .step.minimized > .step-content {
+    height: 0px;
+  }
+  
+  #NewRegistration .step-content.one {
+    height: 160px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 19px;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+  }
+
+  #NewRegistration .step-content p{
+    /* height: 460px; */
+  padding: 10px;
+  font-size: 19px;
+    
+  }
+
+  
+  #NewRegistration .step-content.two {
+    /* height: 600px; */
+    height: 160px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  #NewRegistration .step-content.three {
+    height: 160px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  #NewRegistration .next-btn {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* float: right; */
+    right: 1%;
+    bottom: 1%;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: red;
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+  }
+
+  #NewRegistration .hack-btn {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    /* top: 50%; */
+    left: 40%;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(28, 206, 161);
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+  }
+
+  #NewRegistration .g-btn {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    /* top: 50%; */
+    margin-top: 10px;
+    left: 40%;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(100, 109, 110);
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+  }
+  
+  #NewRegistration .close-btn {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* float: right; */
+    right: 1%;
+    bottom: 1%;
+    border: 0;
+    padding: 10px 20px;
+    
+    border-radius: 4px;
+    background-color: rgb(255, 0, 255);
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Irrelevant styling things */
+  #NewRegistration .close-btn:hover {
+    background-color: rgba(255, 0, 255, 0.6);
+  }
+  
+  #NewRegistration .close-btn:focus {
+    outline: 0;
+  }
+  
+  #NewRegistration .next-btn:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  #NewRegistration .next-btn:focus {
+    outline: 0;
+  }
+  
+  #NewRegistration .step.minimized:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #NewRegistration .step-content.two {
+      /* height: 600px; */
+      height: 260px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    
+    #NewRegistration .step-content.three {
+      height: 260px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 460px) {
+  #NewRegistration .step-content.two {
+    /* height: 600px; */
+    height: 360px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  #NewRegistration .step-content.three {
+    height: 360px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+}
