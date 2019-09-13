@@ -60,6 +60,7 @@ header {
    position: fixed;
    left: 0;
    top: 0;
+   /* margin-top: -40px; */
    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
    /* opacity: 0.5; */
    /* margin-top:100px; */
@@ -213,7 +214,7 @@ ul#nav li.current a { color: #fff; }
    padding: 0;
    color: #F9F1E9;
    text-align: center;
-   top: 20%;
+   top: 14%;
    /* left: 50%; */
    /* -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0); */
@@ -364,6 +365,7 @@ ul#nav li.current a { color: #fff; }
    /* background-image: url('../images/f12.png');
    background-repeat: repeat-y;
    overflow: hidden; */
+   margin-bottom: 0px;
 
    
 }
