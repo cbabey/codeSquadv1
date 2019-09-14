@@ -99,7 +99,7 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: rgba(233, 33, 99, 1);
   z-index: 5;
   left: 0;
   right: 0;
@@ -110,7 +110,7 @@
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #00c4f3;
+  border-bottom: 4px solid rgba(233, 33, 99, 1);
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -119,7 +119,7 @@
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #00c4f3;
+  border-top: 4px solid rgba(233, 33, 99, 1);
   bottom: -4px;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .time {
-  background: #00c4f3;
+  background: rgba(233, 33, 99, 1);
   display: inline-block;
   padding: 8px;
 }
